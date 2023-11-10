@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/gradient_background.dart';
+import 'package:quiz_app/quiz.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Scaffold(
-        body: GradientBackground(),
-      ),
-    ),
+    const Quiz(),
   );
 }

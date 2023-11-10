@@ -14,24 +14,25 @@ class MainView extends StatelessWidget {
       children: [
         Image.asset(
           'assets/images/quiz-logo.png',
-          width: 290,
+          width: 300,
+          color: const Color.fromARGB(160, 255, 255, 255),
         ),
         const SizedBox(height: 80),
         const Text(
           "Learn Flutter the fun way!",
           style: TextStyle(
-            color: Colors.white,
+            color: Color.fromARGB(255, 201, 196, 209),
             fontSize: 22,
           ),
         ),
         const SizedBox(height: 50),
-        TextButton(
+        OutlinedButton.icon(
           onPressed: startQuiz,
-          style: TextButton.styleFrom(
-            foregroundColor: Colors.white,
-            textStyle: const TextStyle(fontSize: 18),
+          style: OutlinedButton.styleFrom(
+            foregroundColor: const Color.fromARGB(255, 201, 196, 209),
           ),
-          child: const Text('Start Quiz'),
+          label: const Text('Start Quiz'),
+          icon: const Icon(Icons.arrow_right_alt),
         ),
       ],
     );
