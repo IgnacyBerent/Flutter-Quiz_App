@@ -21,7 +21,7 @@ class MainView extends StatelessWidget {
           Text(
             "Learn Flutter the fun way!",
             style: GoogleFonts.lato(
-              color: const Color.fromARGB(255, 201, 196, 209),
+              color: const Color.fromARGB(255, 185, 151, 240),
               fontSize: 22,
             ),
           ),
@@ -29,7 +29,7 @@ class MainView extends StatelessWidget {
           OutlinedButton.icon(
             onPressed: startQuiz,
             style: OutlinedButton.styleFrom(
-              foregroundColor: const Color.fromARGB(255, 201, 196, 209),
+              foregroundColor: const Color.fromARGB(255, 185, 151, 240),
             ),
             label: const Text('Start Quiz'),
             icon: const Icon(Icons.arrow_right_alt),
