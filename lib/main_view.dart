@@ -19,7 +19,7 @@ class MainView extends StatelessWidget {
           ),
           const SizedBox(height: 80),
           Text(
-            "Learn Flutter the fun way!",
+            "Learn mad happly!",
             style: GoogleFonts.lato(
               color: const Color.fromARGB(255, 185, 151, 240),
               fontSize: 22,
